@@ -4,7 +4,7 @@
 // ============================================================
 
 const DATA = {
-  name: "Alex Johnson",
+  name: "Pravesh Patel",
   role: "Frontend Developer & UI Craftsman",
   available: true, // true = shows "Available for work" badge
   tagline:
