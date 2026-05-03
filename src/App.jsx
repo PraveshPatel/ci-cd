@@ -5,7 +5,7 @@
 
 const DATA = {
   name: "Pravesh Patel",
-  role: "React Native & React.js Developer",
+  role: "React Native & React.js & Next.js Developer",
   available: true, // true = shows "Available for work" badge
   tagline:
     "I build fast, accessible, and beautifully designed web experiences. Specializing in React ecosystems and design systems that scale.",
