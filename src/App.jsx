@@ -457,7 +457,7 @@ function Hero() {
         <br />
         {lastName}
         <br />
-        <em>Frontend Dev</em>
+        <em>{DATA.role}</em>
       </h1>
       <p className="hero-desc">{DATA.tagline}</p>
       <div className="hero-cta">
