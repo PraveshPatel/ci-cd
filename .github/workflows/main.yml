@@ -26,5 +26,5 @@ jobs:
 
       - name: Deploy to Nginx folder
         run: |
-          sudo rm -rf /var/www/react-app/dist/*
-          sudo cp -r dist/* /var/www/react-app/dist/
+          sudo rsync -av --delete dist/ /var/www/react-app/dist/
+           sudo chown -R ubuntu:ubuntu /var/www/react-app/dist
